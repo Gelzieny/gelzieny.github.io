@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="assets/avatar.png" alt="Avatar de usuário">
+        <p>@gelzieny</p>
+      </div>
+
+      <div id="switch">
+        <button id="button_switch"></button>
+        <span></span>
+      </div>
+
+      <ul>
+        <li>
+          <a href="https://dev.to/gelzieny" target="_blank" data-key="links.blog">
+            Veja meu blog
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Gelzieny" target="_blank" data-key="links.portfolio">
+            Veja meu portfólio
+          </a>
+        </li>
+        <li>
+          <a href="mailto:gelzieny@example.com" target="_blank" data-key="links.contact">
+            Entre em contato
+          </a>
+        </li>
+      </ul>
+      <div id="social-liks">
+        <a href="https://github.com/Gelzieny" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/gelzieny/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/gelzieny/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>     
+      </div>
+
+      <footer data-key="footer">
+        Feito com ♥ pela Gelzieny
+      </footer>
+    </div>
+    <!-- Botões de troca de idioma -->
+    <div id="language-selector">
+      <button id="pt-btn">Português</button>
+      <button id="en-btn">English</button>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
